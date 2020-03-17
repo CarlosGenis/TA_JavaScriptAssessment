@@ -43,7 +43,7 @@ class Pokemon {
       this.partialHP = this.health;
       this.health = 25;
       console.log(this.name, '(',this.type,')', this.partialHP, '/', this.health );
-      return 
+      return; 
     }
   }
 }
