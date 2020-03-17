@@ -43,15 +43,7 @@ class Pokemon {
       this.partialHP = this.health;
       this.health = 25;
       console.log(this.name, '(',this.type,')', this.partialHP, '/', this.health );
-      return ;
-    }
-    else if (this.name = "bulbasaur"){
-      this.name = this.name.toUpperCase();
-      this.type = this.type.toUpperCase();
-      this.partialHP = this.health;
-      this.health = 35;
-      console.log(this.name, '(',this.type,')', this.partialHP, '/', this.health );
-      return ;
+      return 
     }
   }
 }
